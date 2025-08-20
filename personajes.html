@@ -1,46 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fan Page: Los Simuladores</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personajes – Fan Page: Los Simuladores</title>
+  <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-    <header>
-        <h1>Personajes de la serie</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="episodios.html">Episodios</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Bienvenidos a la sección de personajes</h2>
-            <p>En esta sección, conoceremos a los integrantes de <em>Los Simuladores</em>, un grupo de especialistas que resuelven problemas complejos a través de elaboradas puestas en escena, cada uno aportando talentos únicos que hacen posible el éxito de sus misiones.</p>
-            <ul>
-                <li><strong>Mario Santos</strong>: El líder del equipo. Estratega nato, carismático y persuasivo, es el encargado de negociar con los clientes y coordinar cada operación.</li>
-                <img src="img/santos.jpg" alt="Mario Santos" width="200">
-                <li><strong>Pablo Lamponne</strong>: Responsable de logística y recursos. Consigue todo lo necesario para las simulaciones, desde objetos imposibles hasta ubicaciones estratégicas.</li>
-                <img src="img/lampone.jpg" alt="Pablo Lamponne" width="200">
-                <li><strong>Emilio Ravenna</strong>: El maestro del disfraz y la interpretación. Su capacidad para asumir identidades falsas es clave en la ejecución de los planes.</li>
-                <img src="img/ravenna.jpg" alt="Emilio Ravenna" width="200">
-                <li><strong>Gabriel Medina</strong>: El investigador del grupo. Recolecta información y estudia a fondo a los objetivos para anticipar cada movimiento.</li>
-                <img src="img/medina.jpg" alt="Gabriel Medina" width="200">
-            </ul>   
-            <img src="img/logo_simuladores.jpeg" alt="Los Simuladores" width="300">
-        </section>
-        <section>
-            <h2>Este seria yo como un personaje dentro de la serie</h2>
-            <img src="img/cara_simuladores.png" alt="Yo como personaje" width="300">
-            <p>Si yo fuera un personaje en "Los Simuladores", sería un experto en tecnología y ciberseguridad, capaz de hackear sistemas y obtener información crucial para las misiones. Mi papel sería el de proporcionar soporte técnico al equipo, asegurando que cada simulación tenga un respaldo digital sólido. Con mi habilidad para manipular datos y redes, ayudaría a crear escenarios más realistas y efectivos.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
-    </footer>
-</body>
 
+  <!-- HEADER: logo + título izquierda / enlaces derecha -->
+  <header>
+    <div class="contenedor barra">
+      <div class="marca">
+        <img class="logo" src="img/logo_simuladores.jpeg" alt="Los Simuladores">
+        <h1 class="titulo">Fan Page: Los Simuladores</h1>
+      </div>
+      <nav class="navegacion">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="activo" href="personajes.html">Personajes</a></li>
+          <li><a href="episodios.html">Episodios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="contenedor">
+    <section class="seccion tarjeta">
+      <h2>Bienvenidos a la sección de personajes</h2>
+      <p>
+        En esta sección, conoceremos a los integrantes de <em>Los Simuladores</em>, un grupo de especialistas
+        que resuelven problemas complejos mediante elaboradas puestas en escena, cada uno con un rol clave.
+      </p>
+    </section>
+
+    <section class="personajes">
+      <!-- Mario Santos -->
+      <div class="personaje">
+        <img class="foto" src="img/santos.jpg" alt="Mario Santos">
+        <div>
+          <h3 class="nombre">Mario Santos</h3>
+          <div class="rol">Líder • Estratega y negociador</div>
+          <p>Carismático y persuasivo, coordina cada operación y define la estrategia general. 
+             Trata con los clientes y conduce las simulaciones para lograr el objetivo.</p>
+        </div>
+      </div>
+
+      <!-- Pablo Lamponne -->
+      <div class="personaje">
+        <img class="foto" src="img/lampone.jpg" alt="Pablo Lamponne">
+        <div>
+          <h3 class="nombre">Pablo Lamponne</h3>
+          <div class="rol">Logística • Recursos y utilería</div>
+          <p>Consigue lugares, objetos, vehículos y contactos. Su red hace viables 
+             las puestas en escena más complejas.</p>
+        </div>
+      </div>
+
+      <!-- Emilio Ravenna -->
+      <div class="personaje">
+        <img class="foto" src="img/ravenna.jpg" alt="Emilio Ravenna">
+        <div>
+          <h3 class="nombre">Emilio Ravenna</h3>
+          <div class="rol">Interpretación • Disfraces e identidades</div>
+          <p>Maestro del disfraz, asume personalidades convincentes para infiltrarse y mover la trama.
+             Su actuación sostiene la credibilidad de cada simulación.</p>
+        </div>
+      </div>
+
+      <!-- Gabriel Medina -->
+      <div class="personaje">
+        <img class="foto" src="img/medina.jpg" alt="Gabriel Medina">
+        <div>
+          <h3 class="nombre">Gabriel Medina</h3>
+          <div class="rol">Investigación • Inteligencia y análisis</div>
+          <p>Recolecta y cruza información sobre clientes y objetivos, anticipando movimientos.
+             Su trabajo analítico reduce riesgos y afina los detalles del operativo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- “Yo como personaje” en tarjeta simple -->
+    <section class="seccion personaje-yo">
+      <img class="foto-yo" src="img/cara_simuladores.png" alt="Yo como personaje">
+      <div>
+        <h2 class="titulo-yo">Este sería yo como un personaje dentro de la serie</h2>
+        <p class="texto-yo">
+          Sería un experto en tecnología y ciberseguridad, capaz de obtener información clave y 
+          montar el soporte técnico de cada simulación para que todo salga milimétrico.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
+  </footer>
+</body>
 </html>

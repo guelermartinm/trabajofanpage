@@ -1,60 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fan Page: Los Simuladores</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Episodios – Fan Page: Los Simuladores</title>
+  <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-    <header>
-        <h1>Episodios</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="episodios.html">Episodios</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Episodios y temporadas</h2>
-            <ul>
-                <li><a href="#temporada1">Temporada 1</a></li>
-                <li><a href="#temporada2">Temporada 2</a></li>
-                <li><a href="#especiales">Episodios especiales</a></li>
-            </ul>
-            <p><em>Los Simuladores</em> cuenta con dos temporadas que marcaron un antes y un después en la televisión argentina. Cada capítulo presenta una misión distinta, donde el equipo diseña simulaciones meticulosas para resolver conflictos personales, laborales o sociales. Algunos episodios se convirtieron en verdaderos íconos por sus tramas, diálogos y creatividad.</p>
-            
-            <h3 id="temporada1">Temporada 1 (2002)</h3>
-            <p>La primera temporada introduce la dinámica del grupo y sus ingeniosas estrategias. Entre los capítulos más memorables se encuentran:</p>
-            <ul>
-                <li><strong>Los impresentables</strong>: El debut de la serie, donde un político necesita mejorar su imagen.</li>
-                <li><strong>El testigo español</strong>: Una simulación internacional para proteger a un testigo clave.</li>
-                <li><strong>Seguro de desempleo</strong>: Un plan para proteger a un trabajador injustamente despedido.</li>
-            </ul>
+  <!-- HEADER unificado -->
+  <header>
+    <div class="contenedor barra">
+      <div class="marca">
+        <img class="logo" src="img/logo_simuladores.jpeg" alt="Los Simuladores">
+        <h1 class="titulo">Fan Page: Los Simuladores</h1>
+      </div>
+      <nav class="navegacion">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a class="activo" href="episodios.html">Episodios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <h3 id="temporada2">Temporada 2 (2003)</h3>
-            <p>En la segunda temporada, las operaciones se vuelven más complejas y los riesgos aumentan. Algunos episodios destacados son:</p>
-            <ul>
-                <li><strong>El clan Motul</strong>: Un caso que involucra a una peligrosa familia de estafadores.</li>
-                <li><strong>La Brigada B</strong>: Una historia que mezcla acción, humor y homenaje a series clásicas.</li>
-                <li><strong>Fin de temporada: El gran desafío</strong>: Un episodio donde los Simuladores enfrentan a un rival capaz de anticipar sus movimientos.</li>
-            </ul>
+  <main class="contenedor">
+    <!-- Temporada 1 -->
+    <section id="t1" class="seccion tarjeta">
+      <h2>Temporada 1 (2002)</h2>
+      <ul>
+        <li><strong>Los Impresentables</strong>: Un político en decadencia necesita mejorar su imagen pública.</li>
+        <li><strong>El Testigo Español</strong>: Viajan a España para proteger a un testigo clave.</li>
+        <li><strong>Seguro de Desempleo</strong>: Ayudan a un trabajador injustamente despedido.</li>
+        <li><strong>El Rival</strong>: Recuperan la confianza de un niño en su padre, ex futbolista.</li>
+        <li><strong>El Pequeño Problema</strong>: Obligan a un hombre a cumplir con la manutención de su hija.</li>
+        <li><strong>El Inimputable</strong>: Hacen creer a un joven adicto que su adicción tiene consecuencias terribles.</li>
+        <li><strong>El Pacto Copérnico</strong>: Frenan a un empresario que vende medicamentos adulterados.</li>
+        <li><strong>El Experimento McClane</strong>: Recrean una misión de acción para salvar a empleados en riesgo.</li>
+        <li><strong>El Centauro</strong>: Engañan a un usurero para liberar a un deudor.</li>
+        <li><strong>Los Imprescindibles</strong>: Protegen a un periodista amenazado por investigar a una mafia.</li>
+        <li><strong>El Anillo de Salomón</strong>: Desarman a un estafador que engaña a ancianos.</li>
+        <li><strong>El Colaborador Foráneo</strong>: Rescatan a un inmigrante explotado laboralmente.</li>
+        <li><strong>El Clan Motul</strong>: Enfrentan a una familia de estafadores.</li>
+      </ul>
+       <div class="clips">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/yKX95ZcCVL0"
+          title="Clip T1 • 1"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/aiZTmaGSqBw"
+          title="Clip T1 • 2"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
 
-            <h3 id="especiales">Episodios especiales</h3>
-            <p>Además de las temporadas regulares, la serie tuvo capítulos que se destacan por su ingenio y popularidad:</p>
-            <ul>
-                <li><strong>El joven simulador</strong>: Flashback que muestra cómo se conocieron y formaron el grupo.</li>
-                <li><strong>El vengador infantil</strong>: Una trama cargada de emoción donde ayudan a un niño a hacer justicia.</li>
-                <li><strong>Operación doble vida</strong>: Un caso que pone a prueba la lealtad del equipo y sus principios.</li>
-            </ul>
+    <!-- Temporada 2 -->
+    <section id="t2" class="seccion tarjeta">
+      <h2>Temporada 2 (2003)</h2>
+      <ul>
+        <li><strong>El Gran Desafío</strong>: Aparece un enemigo que conoce sus tácticas.</li>
+        <li><strong>La Brigada B</strong>: Forman un grupo paralelo en homenaje a series clásicas.</li>
+        <li><strong>El Vengador Infantil</strong>: Ayudan a un niño víctima de bullying a obtener justicia.</li>
+        <li><strong>El Colado</strong>: Simulación para que un hombre pueda casarse con la mujer que ama.</li>
+        <li><strong>El Plan Maiden</strong>: Una joven quiere ir a un recital de Iron Maiden.</li>
+        <li><strong>El Sueño de Walter</strong>: Cumplen el sueño de un hombre de ser boxeador.</li>
+        <li><strong>El Vendedor de Sueños</strong>: Desenmascaran a un timador de “productos milagro”.</li>
+        <li><strong>El Impostor</strong>: Limpian el nombre de un acusado falsamente.</li>
+        <li><strong>El Otro</strong>: Ayudan a una mujer a recuperar la confianza de su esposo.</li>
+        <li><strong>El Gran Desafío II</strong>: El rival regresa en el cierre de temporada.</li>
+      </ul>
+      <div class="clips">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/vdMXZC-e9oM"
+          title="Clip T2 • 1"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/i4MqsBZpTbQ"
+          title="Clip T2 • 2"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
 
-            <img src="img/logo_simuladores.jpeg" alt="Logo Los Simuladores" width="300">
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
-    </footer>
+    <!-- Especiales -->
+    <section id="esp" class="seccion tarjeta">
+      <h2>Episodios especiales</h2>
+      <ul>
+        <li><strong>El Joven Simulador</strong>: Cómo se formó el grupo.</li>
+        <li><strong>Operación Doble Vida</strong>: Se pone a prueba la lealtad del equipo.</li>
+        <li><strong>El Vengador Infantil (extendido)</strong>: Versión ampliada de la historia del niño.</li>
+      </ul>
+      <div class="clips">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/-4abUX8Pw3Q"
+          title="Clip especial 1"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

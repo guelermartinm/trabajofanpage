@@ -1,36 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fan Page: Los Simuladores</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fan Page: Los Simuladores</title>
+  <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-    <header>
-        <h1>Fan Page: Los Simuladores</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="episodios.html">Episodios</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Bienvenidos a la Fan Page de Los Simuladores</h2>
-            <p>Los Simuladores es una serie de televisión argentina que combina drama y comedia, centrada en un grupo de cuatro expertos que resuelven problemas de sus clientes mediante elaborados engaños y simulaciones.</p>
-            <img src="img/logo_simuladores.jpeg" alt="Los Simuladores" width="300">
-            <a href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">Más información sobre Los Simuladores</a>
-        </section>
-        <section>
-            <h2>Sobre la Serie</h2>
-            <p>Creada por Damián Szifron, la serie se emitió originalmente entre 2002 y 2004. Cada episodio presenta un nuevo caso que los protagonistas deben resolver, utilizando su ingenio y habilidades para llevar a cabo sus planes.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
-    </footer>
-    
+  <!-- HEADER unificado -->
+  <header>
+    <div class="contenedor barra">
+      <div class="marca">
+        <img class="logo" src="img/logo_simuladores.jpeg" alt="Los Simuladores">
+        <h1 class="titulo">Fan Page: Los Simuladores</h1>
+      </div>
+      <nav class="navegacion">
+        <ul>
+          <li><a class="activo" href="index.html">Home</a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a href="episodios.html">Episodios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <!-- HERO en dos columnas -->
+    <section class="seccion tarjeta">
+      <div class="inicio">
+        <div>
+          <h2>Bienvenidos a la Fan Page de <em>Los Simuladores</em></h2>
+          <p>
+            Serie argentina que mezcla drama y comedia: cuatro especialistas resuelven
+            problemas mediante elaboradas simulaciones. Este sitio reúne
+            <strong>personajes</strong>, <strong>episodios</strong> y datos clave.
+          </p>
+        </div>
+        <div class="inicio-imagen">
+          <img src="img/logo_simuladores.jpeg" alt="Los Simuladores">
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE LA SERIE -->
+    <section class="seccion tarjeta">
+      <h2>Sobre la serie</h2>
+      <p>
+        Creada por Damián Szifron, emitida entre 2002 y 2004. Cada capítulo propone
+        una misión distinta resuelta mediante simulaciones.
+      </p>
+      <p>
+        <a href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">
+          Más información de la serie acá
+        </a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fan Page de Los Simuladores. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
